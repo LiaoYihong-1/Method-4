@@ -20,7 +20,6 @@ public class Repeat implements RepeatMBean {
     public boolean repeated = false;
     @Override
     public void checkRepeat() {
-        System.out.println("Checking dots");
         this.repeated = true;
         if(three_dot.size() < 3){
             this.repeated = false;
